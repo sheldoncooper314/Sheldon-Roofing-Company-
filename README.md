@@ -1,1 +1,3 @@
 # Sheldon-Roofing-Company-
+
+Sheldon Roofing Company is a reusable roofing template on Whop Websites. It uses Whop Payments Elements (Payments, PaymentElement, EmailElement, ExpressCheckoutElement for Apple Pay and Google Pay, and the required BrandingElement) with three real plans: a $149 inspection, a $500 deposit and a $349 flat-rate service. The deposit saves the card with a setup intent. The Leads API captures estimate requests. The Invoices API bills the final balance by auto-charging the card on file or by sending a hosted checkout link. Custom whop.track events (estimate_requested, service_viewed, deposit_started) sit alongside the automatic page-view and checkout tracking, and all business content lives in one config file.
